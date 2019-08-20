@@ -1,0 +1,940 @@
+* {
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+body  {
+  background-color: #333333 !important;
+}
+
+nav {
+  background-color: #f9f9f9;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
+nav >  ul > li { 
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0px 0px 10px 0px;
+}
+
+nav  ul li a {
+    color: #333333;
+}
+
+nav  ul li a:hover{
+  text-decoration: none;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.letter-padding{
+  padding: 0px 100px 0px 40px;
+}
+
+footer {
+  background-color: #f9f9f9 !important;
+  padding: 10px ;
+  text-align: center;
+}
+
+.container{
+  background-color: #f9f9f9;
+}
+
+
+.form-mensaje{
+  height: 200px !important;
+}
+
+div > ul > li {
+  display: inline;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.maps{
+  width:65%; 
+  height:550PX;
+}
+
+.hr-line{
+  height: 3px;
+  background: #333333;
+}
+
+.hr-line-none{
+    display:none;
+}
+
+.block-0{
+  display: none;
+}
+
+.block-1{
+  display: contents;
+}
+
+.input-text{
+  border-radius: 5px;
+  padding:5px;
+  margin-left: 50px;
+}
+
+.imagen{
+    cursor: pointer;
+  }
+
+@media (max-width: 700px){
+  .btn-success{
+    left: 30px;
+    top:600px;
+    width: 250px;
+    height: 50px;
+  
+  }
+  .hr-line-none{
+    display:block;
+    
+  }
+  .imagen{
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .maps{
+    width: 100%;
+  }
+
+  .block-1{
+    display: none;
+  }
+
+  .block-0{
+    display: block;
+  }
+
+
+}
+
+
+li header{
+  display: none;
+}
+
+li header ul li{
+  list-style: none;
+}
+
+li:hover header {
+  display: block;
+  animation-name: pepe;
+  animation-duration: 0.8s;
+}
+
+.header-dev{
+  padding-top: 10px;
+  position:fixed;
+  width: 40%;
+  background-color: #f9f9f9;
+  z-index: 40;
+  top: 45px;
+  left: 0px;
+}
+
+@keyframes pepe{
+   0%{
+    top: 90px;
+   }50%{
+
+   }100%{
+
+   }
+}
+
+/*imagenes index*/
+
+.img-01{
+  background-image: url('../img/pic02.jpg')!important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  margin-top: 55px;
+  transition: 0.6s;
+}
+
+.img-01:hover{
+  background-image: url('../img/pic05.jpg')!important;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: 55px;
+  transition: 0.6s; 
+}
+
+.btn-success{
+  background-color: #333333e8 !important;
+  border-color: transparent !important;
+  position: absolute ;
+  left: 30px;
+  top:400px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.btn-success:hover{
+  background-color: #f9f9f9a9 !important;
+  border-color: transparent !important;
+  color: #333333 !important;
+  position: absolute ;
+  left: 30px;
+  top:400px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.img-02{
+  background-image: url('../img/pic01.jpg')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 700px;
+  transition: 0.6s;
+}
+
+.img-02:hover{
+  background-image: url('../img/pic04.jpg')!important;
+  background-position: center;
+  background-size: cover; 
+  width: 100%;
+  height: 700px;
+  transition: 0.6s; 
+}
+
+.btn-success-2{
+  background-color: #333333e8 !important;
+  border-color: transparent !important;
+  position: absolute ;
+  color: #f9f9f9;
+  left: 30px;
+  top:1100px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.btn-success-2:hover{
+  background-color: #333333c6 !important;
+  border-color: transparent !important;
+  color: #f9f9f9 !important;
+  position: absolute ;
+  left: 30px;
+  top:1100px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.img-03{
+  background-image: url('../img/pic03.jpg')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 700px;
+  transition: 0.6s;
+}
+
+.img-03:hover{
+  background-image: url('../img/pic06.jpg')!important;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 700px;
+  transition: 0.6s; 
+}
+
+.btn-success-3{
+  background-color: #333333e8 !important;
+  border-color: transparent !important;
+  color: #f9f9f9;
+  position: absolute ;
+  left: 30px;
+  top:1800px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.btn-success-3:hover{
+  background-color: #33333392 !important;
+  border-color: transparent !important;
+  position: absolute ;
+  color: #f9f9f9 !important;
+  left: 30px;
+  top:1800px;
+  width: 250px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+/*fin imagenes*/
+
+
+/*promociones*/
+
+.promo-01{
+  background-image: url('../img/pic07.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.promo-01:hover{
+  background-image: url('../img/pic10.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.promo-02{
+  background-image: url('../img/pic08.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.promo-02:hover{
+  background-image: url('../img/pic11.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.promo-03{
+  background-image: url('../img/pic09.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.promo-03:hover{
+  background-image: url('../img/pic12.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 400px;
+  transition: 0.3s;
+}
+
+.col-offset-mdd{
+  margin-left:13.555%
+}
+
+/*fin promociones*/
+
+.g{
+  border-bottom: 2px solid transparent!important;
+}
+.g:hover{
+
+  border-bottom: 2px solid #333!important;
+  transition: all 0.9s !important;
+}
+
+
+
+.footer-img{
+  background-color: #f9f9f9;
+  width: 100%
+  height:auto;
+  padding: 5px;
+  text-align: center;
+}
+
+/*inicio imagenes hombre*/
+
+.img-hombre-0{
+  background-image: url('../img/img00.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-0:hover{
+  background-image: url('../img/img01.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-1{
+  background-image: url('../img/img02.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-1:hover{
+  background-image: url('../img/img03.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-2{
+  background-image: url('../img/img04.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-2:hover{
+  background-image: url('../img/img05.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-3{
+  background-image: url('../img/img06.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-3:hover{
+  background-image: url('../img/img07.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-4{
+  background-image: url('../img/img08.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-4:hover{
+  background-image: url('../img/img09.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-5{
+  background-image: url('../img/img10.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-5:hover{
+  background-image: url('../img/img11.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-6{
+  background-image: url('../img/img12.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-6:hover{
+  background-image: url('../img/img13.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-hombre-7{
+  background-image: url('../img/img14.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-hombre-7:hover{
+  background-image: url('../img/img15.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*fin imagenes hombres*/
+
+
+/* inicio ropa mujer*/
+
+
+.img-mujer-0{
+  background-image: url('../img/img16.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-0:hover{
+  background-image: url('../img/img17.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-1{
+  background-image: url('../img/img18.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-1:hover{
+  background-image: url('../img/img19.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-2{
+  background-image: url('../img/img20.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-2:hover{
+  background-image: url('../img/img21.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-3{
+  background-image: url('../img/img22.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-3:hover{
+  background-image: url('../img/img23.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-4{
+  background-image: url('../img/img24.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-4:hover{
+  background-image: url('../img/img25.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-5{
+  background-image: url('../img/img26.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-5:hover{
+  background-image: url('../img/img27.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-6{
+  background-image: url('../img/img28.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-6:hover{
+  background-image: url('../img/img29.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-mujer-7{
+  background-image: url('../img/img30.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-mujer-7:hover{
+  background-image: url('../img/img31.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*fin ropa mujer*/
+
+/*inicio ropa niño*/
+
+.img-nino-0{
+  background-image: url('../img/img32.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-0:hover{
+  background-image: url('../img/img33.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-1{
+  background-image: url('../img/img34.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-1:hover{
+  background-image: url('../img/img35.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-2{
+  background-image: url('../img/img36.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-2:hover{
+  background-image: url('../img/img37.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-3{
+  background-image: url('../img/img38.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-3:hover{
+  background-image: url('../img/img39.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-4{
+  background-image: url('../img/img40.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-4:hover{
+  background-image: url('../img/img41.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-5{
+  background-image: url('../img/img42.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-5:hover{
+  background-image: url('../img/img43.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-6{
+  background-image: url('../img/img44.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-6:hover{
+  background-image: url('../img/img45.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.img-nino-7{
+  background-image: url('../img/img46.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.img-nino-7:hover{
+  background-image: url('../img/img47.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*fin ropa niño*/
