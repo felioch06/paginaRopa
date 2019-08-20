@@ -115,6 +115,9 @@ div > ul > li {
   .block-0{
     display: block;
   }
+  .header-dev{
+  width: 100% !important;
+} 
 
 
 }
