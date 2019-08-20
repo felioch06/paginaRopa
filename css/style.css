@@ -113,6 +113,28 @@ div > ul > li {
   width: 100% !important;
 } 
 
+.col-offset-mdd{
+  margin-left:0% !important;
+}
+
+.promo-01{
+  width: 60% !important;
+  margin-left:23% !important;
+
+}
+
+.promo-02{
+  width: 60% !important;
+  margin-left:23% !important;
+}
+
+.promo-03{
+  width: 60% !important;
+  margin-left:23% !important;
+
+}
+
+
 
 }
 
