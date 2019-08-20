@@ -957,3 +957,18 @@ li:hover header {
 }
 
 /*fin ropa niño*/
+
+/* inicio promos pagina*/
+
+.promo-translate{
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.promo-translate:hover{
+
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+/*fin promos pagina*/
